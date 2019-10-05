@@ -4,6 +4,9 @@
   "main": "dist/index.js",
   "license": "MIT",
   "scripts": {
+    "generate": "graphql-codegen",
+    "prebuild": "yarn generate",
+    "predev": "yarn generate",
     "test": "jest",
     "build": "tsc",
     "prestart": "yarn build",
@@ -11,11 +14,19 @@
     "dev": "ts-node-dev --respawn src/index.ts"
   },
   "devDependencies": {
+    "@graphql-codegen/cli": "1.8.1-alpha-87c7426c.4",
+    "@graphql-codegen/typescript": "1.8.1-alpha-87c7426c.4",
+    "@graphql-codegen/typescript-operations": "1.8.1-alpha-87c7426c.4",
+    "@graphql-codegen/typescript-graphql-request": "1.8.1-alpha-87c7426c.4",
     "@types/jest": "24.0.18",
     "@types/node": "12.7.11",
     "jest": "24.9.0",
     "ts-jest": "24.1.0",
     "ts-node-dev": "1.0.0-pre.43",
     "typescript": "3.6.3"
+  },
+  "dependencies": {
+    "graphql": "14.5.8",
+    "graphql-request": "1.8.2"
   }
 }

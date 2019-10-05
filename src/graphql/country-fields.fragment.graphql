@@ -1,0 +1,9 @@
+fragment CountryFields on Country {
+  code
+  name
+  phone
+  currency
+  languages {
+    name
+  }
+}
