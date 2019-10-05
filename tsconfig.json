@@ -11,7 +11,7 @@
     "moduleResolution": "node",
     "allowSyntheticDefaultImports": true,
     "baseUrl": "./",
-    "lib": ["es2015", "esnext"]
+    "lib": ["es2015", "esnext", "dom"]
   },
   "files": ["src/index.ts"]
 }

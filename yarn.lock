@@ -444,14 +444,14 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
-"@graphql-codegen/cli@1.8.1-alpha-ebaf5b49.3":
-  version "1.8.1-alpha-ebaf5b49.3"
-  resolved "https://registry.npmjs.org/@graphql-codegen/cli/-/cli-1.8.1-alpha-ebaf5b49.3.tgz#ee8a13542bb771506790f433665aebde1390bef8"
-  integrity sha512-wy1aMfhnLR9H80kS/auganvk6kc8B4IZYO5Tb5NMDtpkvNseQQ63oZkSltXQWnl6fQZy7vEDUDmQDNecUqvLmw==
+"@graphql-codegen/cli@1.8.1-alpha-87c7426c.4":
+  version "1.8.1-alpha-87c7426c.4"
+  resolved "https://registry.npmjs.org/@graphql-codegen/cli/-/cli-1.8.1-alpha-87c7426c.4.tgz#78540b12e325865b9774aefa40cc868cfe7fadba"
+  integrity sha512-ooslPHjUrU8y/umXYHy9hSGjs2xSu8Deap1a0GYzuQewAJAfuD3NsrmCqAOvAqJn8YcZtFYAHh3qggFXuOx6bg==
   dependencies:
     "@babel/parser" "7.6.2"
-    "@graphql-codegen/core" "1.8.1-alpha-ebaf5b49.3+ebaf5b49"
-    "@graphql-codegen/plugin-helpers" "1.8.1-alpha-ebaf5b49.3+ebaf5b49"
+    "@graphql-codegen/core" "1.8.1-alpha-87c7426c.4+87c7426c"
+    "@graphql-codegen/plugin-helpers" "1.8.1-alpha-87c7426c.4+87c7426c"
     "@types/debounce" "1.2.0"
     "@types/is-glob" "4.0.1"
     "@types/mkdirp" "0.5.2"
@@ -487,60 +487,60 @@
     tslib "1.10.0"
     valid-url "1.0.9"
 
-"@graphql-codegen/core@1.8.1-alpha-ebaf5b49.3+ebaf5b49":
-  version "1.8.1-alpha-ebaf5b49.3"
-  resolved "https://registry.npmjs.org/@graphql-codegen/core/-/core-1.8.1-alpha-ebaf5b49.3.tgz#3a82576852926e9b46d7fb0efaf76b40694b7a86"
-  integrity sha512-tjB81hup0Zt61X04v/RS9xQN1OKQmceBbkd32lR///116pFFUw8VTn7BQFy+WF13iteI5bA/W9QTmsBZbC4eiw==
+"@graphql-codegen/core@1.8.1-alpha-87c7426c.4+87c7426c":
+  version "1.8.1-alpha-87c7426c.4"
+  resolved "https://registry.npmjs.org/@graphql-codegen/core/-/core-1.8.1-alpha-87c7426c.4.tgz#cd0d7c38256da2e900bca1a50656b044b7ad7333"
+  integrity sha512-QPkgEBExQg6aiaxiVkgaD6JDJVOOqOkn92KoN2WT5TMT0gN82KDEytX1EBUrTtgY7FTlFsaIHjSuFAYUvoEbJA==
   dependencies:
-    "@graphql-codegen/plugin-helpers" "1.8.1-alpha-ebaf5b49.3+ebaf5b49"
+    "@graphql-codegen/plugin-helpers" "1.8.1-alpha-87c7426c.4+87c7426c"
     graphql-toolkit "0.5.16"
     tslib "1.10.0"
 
-"@graphql-codegen/plugin-helpers@1.8.1-alpha-ebaf5b49.3+ebaf5b49":
-  version "1.8.1-alpha-ebaf5b49.3"
-  resolved "https://registry.npmjs.org/@graphql-codegen/plugin-helpers/-/plugin-helpers-1.8.1-alpha-ebaf5b49.3.tgz#187fe29e330a8db96719b027be3cd9d440fb0feb"
-  integrity sha512-s6reM9TAQGIpW109rIu/ORAtLGaw2XxHUjBaiy/WMdvCC5KWW1LF02XXiU6CvZ5+bdqJeJ+mXhFc6cRiD1GoLw==
+"@graphql-codegen/plugin-helpers@1.8.1-alpha-87c7426c.4+87c7426c":
+  version "1.8.1-alpha-87c7426c.4"
+  resolved "https://registry.npmjs.org/@graphql-codegen/plugin-helpers/-/plugin-helpers-1.8.1-alpha-87c7426c.4.tgz#0bbaacc68c84f5de656fbf3b9ea3c91d22ca18a0"
+  integrity sha512-glW2U2UwWCsKiulQREE8SUPpmWkpYfJZEWe24lCfctgsnkrraRTEhYL+c9Nsic2IaLYRzp36MZY/c5cGw1UiTA==
   dependencies:
     change-case "3.1.0"
     common-tags "1.8.0"
     import-from "3.0.0"
     tslib "1.10.0"
 
-"@graphql-codegen/typescript-graphql-request@1.8.1-alpha-ebaf5b49.3":
-  version "1.8.1-alpha-ebaf5b49.3"
-  resolved "https://registry.npmjs.org/@graphql-codegen/typescript-graphql-request/-/typescript-graphql-request-1.8.1-alpha-ebaf5b49.3.tgz#601f88614592623da236a3ac94b4bf94736bc505"
-  integrity sha512-AV332yyhcqtnpZ/k6l8oAb5HcX8bv+lt7LdO76F7Zmt1UnRytgjKVmJAU/lILsvEJT+RBjm8pLDI1zeJSK1SZw==
+"@graphql-codegen/typescript-graphql-request@1.8.1-alpha-87c7426c.4":
+  version "1.8.1-alpha-87c7426c.4"
+  resolved "https://registry.npmjs.org/@graphql-codegen/typescript-graphql-request/-/typescript-graphql-request-1.8.1-alpha-87c7426c.4.tgz#bd33c2f293551d87d33c9b78c40af252a29c6397"
+  integrity sha512-aVfX5ckIGNg/OZ7elCQ6WUSdKn3Y8rVgcVSx1NR9BJT6PxxLWomRmPubL4Nou0iFZhYY/ZQmvojVMbDEThSJsg==
   dependencies:
-    "@graphql-codegen/plugin-helpers" "1.8.1-alpha-ebaf5b49.3+ebaf5b49"
-    "@graphql-codegen/visitor-plugin-common" "1.8.1-alpha-ebaf5b49.3+ebaf5b49"
+    "@graphql-codegen/plugin-helpers" "1.8.1-alpha-87c7426c.4+87c7426c"
+    "@graphql-codegen/visitor-plugin-common" "1.8.1-alpha-87c7426c.4+87c7426c"
     tslib "1.10.0"
 
-"@graphql-codegen/typescript-operations@1.8.1-alpha-ebaf5b49.3":
-  version "1.8.1-alpha-ebaf5b49.3"
-  resolved "https://registry.npmjs.org/@graphql-codegen/typescript-operations/-/typescript-operations-1.8.1-alpha-ebaf5b49.3.tgz#ddccf9fa5e2456b666e0ecc9e9b390932765fe0c"
-  integrity sha512-oefHomI03+xoww7hEf+bCO7tClJEVa77QNlTxniLbltMPbRyLQkMACa4CWF9cvgsu0tnXL1Uu98JNSkYJeKHFA==
+"@graphql-codegen/typescript-operations@1.8.1-alpha-87c7426c.4":
+  version "1.8.1-alpha-87c7426c.4"
+  resolved "https://registry.npmjs.org/@graphql-codegen/typescript-operations/-/typescript-operations-1.8.1-alpha-87c7426c.4.tgz#6c24768661e5908581d5fb0cb635cfdd10d3e3db"
+  integrity sha512-mX309H+1ty0srER2lINQhFcviSqL2usXqzlSn7b1pi0iU9f35PcWxucVAuD+eV1inequ4mKnS/l/EFIiTLpOjQ==
   dependencies:
-    "@graphql-codegen/plugin-helpers" "1.8.1-alpha-ebaf5b49.3+ebaf5b49"
-    "@graphql-codegen/typescript" "1.8.1-alpha-ebaf5b49.3+ebaf5b49"
-    "@graphql-codegen/visitor-plugin-common" "1.8.1-alpha-ebaf5b49.3+ebaf5b49"
+    "@graphql-codegen/plugin-helpers" "1.8.1-alpha-87c7426c.4+87c7426c"
+    "@graphql-codegen/typescript" "1.8.1-alpha-87c7426c.4+87c7426c"
+    "@graphql-codegen/visitor-plugin-common" "1.8.1-alpha-87c7426c.4+87c7426c"
     tslib "1.10.0"
 
-"@graphql-codegen/typescript@1.8.1-alpha-ebaf5b49.3", "@graphql-codegen/typescript@1.8.1-alpha-ebaf5b49.3+ebaf5b49":
-  version "1.8.1-alpha-ebaf5b49.3"
-  resolved "https://registry.npmjs.org/@graphql-codegen/typescript/-/typescript-1.8.1-alpha-ebaf5b49.3.tgz#641f87f24d54c257874f6c882b38324b9b6982c7"
-  integrity sha512-/U6FI9knTbOPVFXLKTen7EKspqHOoPvvRO/0HnLEQagWlSgU/dkc52fcGMitSgNRfRVNnU/jK43JKMWv/HKlXQ==
+"@graphql-codegen/typescript@1.8.1-alpha-87c7426c.4", "@graphql-codegen/typescript@1.8.1-alpha-87c7426c.4+87c7426c":
+  version "1.8.1-alpha-87c7426c.4"
+  resolved "https://registry.npmjs.org/@graphql-codegen/typescript/-/typescript-1.8.1-alpha-87c7426c.4.tgz#3c822dd578e57a09d3caabd6e9da1d9835d20b7d"
+  integrity sha512-R/Rit74ppfwL4jMThYzpB8/jC144r1+AqJ6lFCHpEFiYoQ41V0aTGvDWoozmMRD1oFag3HpANIDVEbEPesfcZw==
   dependencies:
-    "@graphql-codegen/plugin-helpers" "1.8.1-alpha-ebaf5b49.3+ebaf5b49"
-    "@graphql-codegen/visitor-plugin-common" "1.8.1-alpha-ebaf5b49.3+ebaf5b49"
+    "@graphql-codegen/plugin-helpers" "1.8.1-alpha-87c7426c.4+87c7426c"
+    "@graphql-codegen/visitor-plugin-common" "1.8.1-alpha-87c7426c.4+87c7426c"
     auto-bind "2.0.0"
     tslib "1.10.0"
 
-"@graphql-codegen/visitor-plugin-common@1.8.1-alpha-ebaf5b49.3+ebaf5b49":
-  version "1.8.1-alpha-ebaf5b49.3"
-  resolved "https://registry.npmjs.org/@graphql-codegen/visitor-plugin-common/-/visitor-plugin-common-1.8.1-alpha-ebaf5b49.3.tgz#7f1042bcd1a826c88c6e59688c1fb8f8cf7a51ea"
-  integrity sha512-ZxMB8uL4FTlzFwsMpf4XP5hRZ1xI8XfGNYhp6mo4bH791nJD5Q/wGSR5Iz/8U3GLJVeBu1S2ygBar9VJurbMlA==
+"@graphql-codegen/visitor-plugin-common@1.8.1-alpha-87c7426c.4+87c7426c":
+  version "1.8.1-alpha-87c7426c.4"
+  resolved "https://registry.npmjs.org/@graphql-codegen/visitor-plugin-common/-/visitor-plugin-common-1.8.1-alpha-87c7426c.4.tgz#f83143946516611a42fc8019783cc54af091e38f"
+  integrity sha512-TeSBYETGhsUX6tCPF9BdITe/PivtzFMyz04gZ1SMwMeAf28MdkrHPY0RxN/BNSbydCyuZKImYAUcT/fTwM7IrA==
   dependencies:
-    "@graphql-codegen/plugin-helpers" "1.8.1-alpha-ebaf5b49.3+ebaf5b49"
+    "@graphql-codegen/plugin-helpers" "1.8.1-alpha-87c7426c.4+87c7426c"
     auto-bind "2.0.0"
     dependency-graph "0.8.0"
     graphql-tag "2.10.1"
