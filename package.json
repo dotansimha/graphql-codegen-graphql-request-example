@@ -14,10 +14,10 @@
     "dev": "ts-node-dev --respawn src/index.ts"
   },
   "devDependencies": {
-    "@graphql-codegen/cli": "1.8.1-alpha-87c7426c.4",
-    "@graphql-codegen/typescript": "1.8.1-alpha-87c7426c.4",
-    "@graphql-codegen/typescript-operations": "1.8.1-alpha-87c7426c.4",
-    "@graphql-codegen/typescript-graphql-request": "1.8.1-alpha-87c7426c.4",
+    "@graphql-codegen/cli": "1.8.1",
+    "@graphql-codegen/typescript": "1.8.1",
+    "@graphql-codegen/typescript-operations": "1.8.1",
+    "@graphql-codegen/typescript-graphql-request": "1.8.1",
     "@types/jest": "24.0.18",
     "@types/node": "12.7.11",
     "jest": "24.9.0",
