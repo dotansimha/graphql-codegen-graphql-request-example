@@ -18,7 +18,7 @@
     "@graphql-codegen/typescript": "1.8.1",
     "@graphql-codegen/typescript-operations": "1.8.1",
     "@graphql-codegen/typescript-graphql-request": "1.8.1",
-    "@types/jest": "24.0.18",
+    "@types/jest": "24.9.1",
     "@types/node": "12.7.11",
     "jest": "24.9.0",
     "ts-jest": "24.1.0",
